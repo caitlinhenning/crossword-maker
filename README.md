@@ -19,5 +19,6 @@
 - Switch between horizontal and vertical typing. Currently, you can only type horizontally without clicking around.
 - Skip over black squares. Currently, typing continues underneath the black square.
 - Add/delete lines for clues. Currently, number of clues is hard-coded.
+- Change grid size. Currently, grid is set as 9x9.
 
 <img width="1418" alt="Screenshot 2023-11-15 at 1 08 23 PM" src="https://github.com/caitlinhenning/crossword-maker/assets/91512183/0ffe5e13-f189-47f7-8cf5-24d4a267cd92">
