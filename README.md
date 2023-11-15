@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+## Crossword Maker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to Run
+ - Run `npm install` | `yarn install` to install all dependencies.
+ - Run `npm start`   | `yarn run` to run the app locally.
+ - You can find the project running on `localhost:3000`.
 
-## Available Scripts
+## To Create a Crossword
+ - First, choose your theme. Ideally, these terms will be **across** rather than **down** and placed symmetrically on the board. In the image below, for example, the terms for the theme Game of Thrones are placed at 1, 11, and 21 **across**.
+ - Write out your clues in the text boxes on the right. Scroll down for 'Down'.
+ - Next, use Fill Square to fill in some black squares around your initial terms. Be sure to maintain rotational symmetry (a feature to help you out with this is coming soon)!
+ - Build off of your theme, filling in black squares as necessary.
+ - A very useful tool is [https://onelook.com/](url). If, for example, you need a word that starts with N and ends with T, you can search "N??T" to get a list of words and phrases to use. You can sort by most common, most lyrical, and part of speech.
+ - Finally, number your clues. Start from the top left and work your way right and down, like reading a book. The **across** and down **clues** may share some numbers.
+ - You've made your crossword! Take a screenshot of your solution. To have someone solve your puzzle, delete all the text (the black squares, numbers, and clues will remain). Remember not to refresh the page, or your puzzle will disappear (fix coming soon)!
 
-In the project directory, you can run:
+## Features Coming Soon
+- Save and load crosswords. Currently, refreshing the page erases progress.
+- Switch between horizontal and vertical typing. Currently, you can only type horizontally without clicking around.
+- Skip over black squares. Currently, typing continues underneath the black square.
+- Add/delete lines for clues. Currently, number of clues is hard-coded.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width="1418" alt="Screenshot 2023-11-15 at 1 08 23 PM" src="https://github.com/caitlinhenning/crossword-maker/assets/91512183/0ffe5e13-f189-47f7-8cf5-24d4a267cd92">
